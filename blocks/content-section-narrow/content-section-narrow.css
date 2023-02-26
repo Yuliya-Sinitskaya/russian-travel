@@ -1,12 +1,12 @@
 .content-section-narrow {
   width: calc(100% - 148px * 2);
   padding: 0 148px 0 148px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 @media screen and (max-width: 1279px) {
   .content-section-narrow {
-    width: calc(100% - 48px * 2);
+    max-width: 928px;
     padding: 0 48px 0 48px;
   }
 }
